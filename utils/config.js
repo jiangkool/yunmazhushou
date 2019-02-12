@@ -1,4 +1,4 @@
-const apiUrl = 'https://app.whbjmr.com/wechat/'
+const apiUrl = 'https://xxx.com/wechat/'
 
 module.exports = {
   login: apiUrl + 'login',
