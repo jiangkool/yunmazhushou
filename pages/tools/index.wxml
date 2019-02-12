@@ -1,0 +1,78 @@
+<view class="box">
+<form class="search-form" bindsubmit="formSubmit" >
+<view class="search-box">
+<view class="blank15"></view>
+<input class="input" name="keywords" placeholder="在这里搜索！" placeholder-class="placeholder"></input>
+<view class="blank15"></view>
+</view>
+<view class="btn-area">
+<button form-type="submit" class="">搜索</button>
+</view>
+</form>
+</view>
+<view class="blank15"></view>
+<view class="box-center">
+<view class="app-tit">育儿工具</view>
+<view class="items">
+<view class="item fl">
+<navigator hover-class="none" url="/pages/tools/jztime/index">
+<image src="../../images/a_20.jpg"></image>
+<view class="blank5"></view>
+<text>疫苗接种</text>
+</navigator>
+</view>
+<view class="item fm">
+<navigator hover-class="none" url="/pages/tools/bbh/index">
+<image src="../../images/a_22.jpg"></image>
+<view class="blank5"></view>
+<text>宝宝身高预测</text>
+</navigator>
+</view>
+</view>
+<view class="blank15"></view>
+<view class="app-tit">孕期工具</view>
+<view class="items">
+<view class="item fl">
+<navigator hover-class="none" url="/pages/tools/yuntong/index">
+<image src="../../images/a_47.jpg"></image>
+<view class="blank5"></view>
+<text>孕酮正常值</text>
+</navigator>
+</view>
+<view class="item fm">
+<navigator hover-class="none" url="/pages/tools/qgt/index">
+<image src="../../images/a_49.jpg"></image>
+<view class="blank5"></view>
+<text>清宫图</text>
+</navigator>
+</view>
+<view class="item fr">
+<navigator hover-class="none" url="/pages/tools/pailuan/index">
+<image src="../../images/a_55.jpg"></image>
+<view class="blank5"></view>
+<text>排卵计算器</text>
+</navigator>
+</view>
+<view class="item fl">
+<navigator hover-class="none" url="/pages/tools/yqtz/index">
+<image src="../../images/a_65.jpg"></image>
+<view class="blank5"></view>
+<text>孕妈体重范围</text>
+</navigator>
+</view>
+<view class="item fm">
+<navigator hover-class="none" url="/pages/tools/ycq/index">
+<image src="../../images/a_63.jpg"></image>
+<view class="blank5"></view>
+<text>孕产期计算器</text>
+</navigator>
+</view>
+<view class="item fr">
+<navigator hover-class="none" url="/pages/tools/bbweight/index">
+<image src="../../images/a_68.jpg"></image>
+<view class="blank5"></view>
+<text>胎儿B超体重</text>
+</navigator>
+</view>
+</view>
+</view>

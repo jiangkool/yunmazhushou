@@ -1,0 +1,64 @@
+<view class='box'>
+  <form bindsubmit="formSubmit" class='search-form'>
+  <view class="search-box">
+    <view class='blank15'></view>
+     <input name="keywords" class='input' placeholder-class="placeholder" placeholder="在这里搜索！" />
+    <view class='blank15'></view>  
+  </view>
+  <view class="btn-area"><button formType="submit">搜索</button></view>
+  </form><!--/search form-->
+</view> <!-- /box -->
+<view class='blank15'></view>
+<view class='box-center'>
+  <view class='items'>
+
+    <view class='item fl'>
+    <navigator url='/pages/list/index?cid=6&cname=出行安全' hover-class="none">
+    <image  src='../../images/a_07.jpg'></image>
+    <view class='blank5'></view>
+    <text>出行安全</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fm'>
+    <navigator url='/pages/list/index?cid=7&cname=行为运动' hover-class="none">
+    <image  src='../../images/a_09.jpg'></image>
+    <view class='blank5'></view>
+    <text>行为运动</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fr'>
+    <navigator url='/pages/list/index?cid=8&cname=休闲娱乐' hover-class="none">
+    <image  src='../../images/a_11.jpg'></image>
+    <view class='blank5'></view>
+    <text>休闲娱乐</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fl'>
+    <navigator url='/pages/list/index?cid=9&cname=居家生活' hover-class="none">
+    <image  src='../../images/a_32.jpg'></image>
+    <view class='blank5'></view>
+    <text>居家生活</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fm'>
+    <navigator url='/pages/list/index?cid=17&cname=穿戴讲究' hover-class="none">
+    <image  src='../../images/a_33.jpg'></image>
+    <view class='blank5'></view>
+    <text>穿戴讲究</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fr'>
+    <navigator url='/pages/list/index?cid=18&cname=身体护理' hover-class="none">
+    <image  src='../../images/a_34.jpg'></image>
+    <view class='blank5'></view>
+    <text>身体护理</text>
+    </navigator>
+    </view><!--/item-->
+
+  </view>
+</view>

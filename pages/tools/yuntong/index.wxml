@@ -1,0 +1,38 @@
+<view class="yyform">
+  <view class="bt">孕酮正常值</view>
+   <view class='blank10'></view>
+   <view class=" tips bg-white">
+  <view class="result text-default">孕酮在女性卵泡期正常值为0.6～1.9nmol/L；排卵期正常值为2.40～9.40nmol/L；排卵后正常值为20.7～102.4nmol/L。女性孕酮分为正常妇女月经周期孕酮参考值以及妊娠期妇女孕酮参考值和绝经期妇女孕酮参考值，不同时期的具体参考数据如下</view>
+  </view>
+  <view class='blank10'></view>
+   <view class=" tips bg-white">
+   <view class='text-bold'>孕酮不同时期的正常值:</view>
+ <view class='blank10'></view>
+  <movable-area class="area">
+    <movable-view direction="horizontal" class='area2'>
+    <view class='table'>
+      <view class='tr hd'><text>测定时间</text><text>标本</text><text>旧制单位正常值</text><text>旧-新系数</text><text>法定单位正常值</text><text>	新-旧系数</text></view>
+      <view class='tr'><text>卵泡期</text><text>血</text><text>0.2～0.6ng/ml</text><text>3.18</text><text>0.6～1.9nmol/L</text><text>	0.3145</text></view>
+      <view class='tr bg2'><text>黄体期</text><text>血</text><text>6.5～32.2ng/ml</text><text>3.18</text><text>20.7～102.4nmol/L</text><text>0.3145</text></view>
+      <view class='tr'><text>孕7周</text><text>血</text><text>24.5±7.6ng/ml</text><text>3.12</text><text>76.4±23.7nmol/L</text><text>0.32</text></view>
+      <view class='tr bg2'><text>孕8周</text><text>血</text><text>28.6±7.9ng/ml</text><text>3.12</text><text>76.4±23.7nmol/L</text><text>0.32</text></view>
+      <view class='tr'><text>孕9～12周</text><text>血</text><text>38.0±13.0ng/ml</text><text>3.12</text><text>118.6±40.6nmol/L</text><text>0.32</text></view>
+      <view class='tr bg2'><text>孕13～16周</text><text>血</text><text>45.5±14.0ng/ml</text><text>3.12</text><text>142.0±43.7nmol/L</text><text>0.32</text></view>
+      <view class='tr'><text>孕17～20周</text><text>血</text><text>63.3±14.0ng/ml</text><text>3.12</text><text>197.5±43.7nmol/L</text><text>0.32</text></view>
+      <view class='tr bg2'><text>孕21～24周</text><text>血</text><text>110.9±35.7ng/ml</text><text>3.12</text><text>346.0±111.4nmol/L</text><text>0.32</text></view>
+      <view class='tr'><text>孕25～34周</text><text>血</text><text>165.3±35.7ng/ml</text><text>3.12</text><text>514.8±111.4nmol/L</text><text>0.32</text></view>
+      <view class='tr bg2'><text>孕35周</text><text>血</text><text>202.0±47.0ng/ml</text><text>3.12</text><text>630.2±146.6nmol/L</text><text>0.32</text></view>
+      <view class='tr'><text>孕13～36周</text><text>血</text><text>55ng/ml</text><text>3.12</text><text>171.6nmol/L</text><text>0.32</text></view>
+      <view class='tr bg2'><text>足月妊娠</text><text>血</text><text>26ng/ml</text><text>3.12</text><text>81.1nmol/L</text><text>0.32</text></view>
+       <view class='tr'><text>绝经期</text><text>血</text><text>小于1.0ng/ml</text><text>3.18</text><text>小于3.2nmol/L</text><text>0.3145</text></view>
+    </view>
+    </movable-view>
+  </movable-area>
+  <view class='blank5'></view>
+  </view>
+  <view class='blank10'></view>
+   <view class='share'>
+    <button open-type="share" type="primary" size="default">分享给朋友！</button>
+  </view>
+  <view class='blank15'></view>
+</view>

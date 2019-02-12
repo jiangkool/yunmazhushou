@@ -1,0 +1,35 @@
+<!--pages/tools/yqtz/index.wxml-->
+<view class="yyform">
+  <view class="bt">孕期末体重范围测试</view>
+   <view class='blank10'></view>
+   <view class=" tips bg-white">
+  <view class="result text-bold">测试结果: <text  class="color-red">{{ yfweight }}</text> </view>
+  </view>
+  <view class='blank10'></view>
+   <form bindsubmit="formSubmit">
+     <view class="section">
+    <view class="section__title">身高:厘米（cm）</view>
+    <input name="yousg" type="digit" class='input-box' confirm-type='next' maxlength='3' placeholder="如：160" />
+    </view>
+    <view class="blank10"></view>
+  <view class="section">
+    <view class="section__title">孕前体重:公斤(kg)</view>
+    <input name="yqweight" type="digit" class='input-box' maxlength='4' placeholder="如：50" />
+    </view>
+    <view class="blank10"></view>
+  <view class="btn-area">
+    <button  type="primary"  formType="submit" class="subbtn">开始测算</button>
+  </view>
+   <view class="blank10"></view>
+</form>
+  <view class='blank10'></view>
+   <view class=" tips bg-white">
+   <view class='blank5'></view>
+  <text class='text-default'>准妈妈怀孕期间究竟要增加多少公斤，才能提供宝宝足够的营养，又不致让自己长出不需要的赘肉呢？预期体重计算器，只要您输入身高和孕前体重，即可计算出孕期末体重正常范围。怀孕期间将体重维持在标准范围内，不仅能帮助生产顺利，减少生产的伤害，预防妊娠纹的产生，还可以避免产后肥胖等问题。</text>
+  </view>
+  <view class='blank10'></view>
+   <view class='share'>
+    <button open-type="share" type="primary" size="default">分享给朋友！</button>
+  </view>
+  <view class='blank15'></view>
+</view>

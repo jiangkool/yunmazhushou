@@ -1,0 +1,19 @@
+<view class="box-center">
+<view wx:if="{{ listData=='' }}" class='no-result'>暂无数据...</view>
+<block wx:for="{{ listData }}" wx:key="topkey">
+<view class='list-item'  bindtap='showArticle'  data-aid="{{ item['id'] }}">
+  <view class='fl'><image src="{{ item['thumb'] }}"></image></view>
+  <view class='fr'>
+    <view class='list-item-tit'>{{ item['title'] }}</view>
+    <view class='list-item-desc'>
+      <block wx:for="{{ item['article_items'] }}" wx:for-index="sindex" wx:for-item="sitem"  wx:key="skey">
+       <icon wx:if="{{ sitem['iscan']==1 }}" type="success" size="15" />
+       <icon wx:elif="{{ sitem['iscan']==0 }}" type="cancel" size="15" /> 
+       <icon wx:else="{{ sitem['iscan']==2 }}" type="warn" size="15" /> {{sitem.feature_id}}  
+       </block>
+    </view>
+  </view>
+  <view class='blank10'></view>
+</view> <!--/list-item-->
+</block>
+</view>

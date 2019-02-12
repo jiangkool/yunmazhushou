@@ -1,0 +1,40 @@
+<!--pages/tools/ycq/index.wxml-->
+
+<view class="yyform">
+  <view class="bt">预产期计算器</view>
+   <view class='blank10'></view>
+   <view class=" tips bg-white">
+  <view class="result text-bold">您的预产期是: <text id="yuchanResult" class="color-red">{{ ycqdate }}</text>
+  <view class='blank5'></view>
+  现在处于孕期的第 <text id="yuchanWeek" class="color-red">{{ nowyz }}</text> 周</view>
+  <view class="blank10"></view>
+  <text class="text-warning">温馨提示: 预产期测试只能测出大概的分娩日期，并不一定在那一天分娩，在预产期前后2周分娩都属正常。</text> 
+  </view>
+  <view class='blank10'></view>
+   <form bindsubmit="formSubmit">
+ <view class="section">
+  <view class="section__title">末次月经时间:</view>
+  <picker mode="date" value="{{date}}" start="2015-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      <input name='lastyjdate' disabled='true' class='input-box' value='{{date}}' placeholder="请点击选择日期"></input> 
+    </view>
+  </picker>
+</view>
+<view class="blank10"></view>
+   <view class="section">
+    <view class="section__title">平均月经周期(天):</view>
+    <input name="yjzq" type="text" class='input-box' placeholder="请填写月经周期 如： 28" />
+    </view>
+    <view class="blank10"></view>
+  <view class="btn-area">
+    <button  type="primary"  formType="submit" class="subbtn">提交测试</button>
+  </view>
+   <view class="blank10"></view>
+</form>
+     <view class='share'>
+    <button open-type="share" type="primary" size="default">分享给朋友！</button>
+  </view>
+  <view class='blank15'></view>
+
+</view>
+

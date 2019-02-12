@@ -1,0 +1,23 @@
+<view class="yyform">
+  <view class="bt">清宫图</view>
+   <view class='blank10'></view>
+   <view class=" tips bg-white">
+  <view class="result text-default">清宫生男生女表相传是由一名中国科学家发明的，是依据阴阳五行和八卦的演绎，再加上时间推算而得。他同时为此画成生男生女图，埋在一个有700年历史的皇陵下。清宫生男生女表来历的真实性无从考究，但生男生女图画法一目了然，根据农历算法，清楚列出18至45岁女性在不同月份受孕，就会生男孩或生女孩。妇女只须根据生男生女，按月“计划”受孕，就能控制生男孩或生女孩。</view>
+  </view>
+  <view class='blank5'></view>
+   <view class=" tips bg-white">
+   <view class='text-bold'>清宫生男生女表:</view>
+ <view class='blank10'></view>
+  <movable-area class="area">
+    <movable-view direction="horizontal" class='area2'>
+    <image src='../../../images/snsnb.gif' style='width:539px;height:636px'></image>
+    </movable-view>
+  </movable-area>
+  <view class='blank5'></view>
+  </view>
+  <view class='blank10'></view>
+    <view class='share'>
+    <button open-type="share" type="primary" size="default">分享给朋友！</button>
+  </view>
+  <view class='blank15'></view>
+</view>

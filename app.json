@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/life/index",
+    "pages/tools/index",
+    "pages/list/index",
+    "pages/show/index",
+    "pages/tools/yqtz/index",
+    "pages/tools/xuexin/index",
+    "pages/tools/bbh/index",
+    "pages/tools/pailuan/index",
+    "pages/tools/ycq/index",
+    "pages/tools/bbweight/index",
+    "pages/tools/jztime/index",
+    "pages/tools/yuntong/index",
+    "pages/tools/qgt/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "武汉孕妈圈",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7e7e7e",
+    "selectedColor": "#ff8d9a",
+    "borderStyle": "black",
+    "backgroundColor": "#FFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon1-1.png",
+        "selectedIconPath": "images/icon2-1.png",
+        "text": "饮食速查"
+      },
+      {
+        "pagePath": "pages/life/index",
+        "iconPath": "images/icon1-2.png",
+        "selectedIconPath": "images/icon2-2.png",
+        "text": "日常生活"
+      },
+      {
+        "pagePath": "pages/tools/index",
+        "iconPath": "images/icon1-3.png",
+        "selectedIconPath": "images/icon2-3.png",
+        "text": "孕期工具"
+      }
+    ]
+  }
+}

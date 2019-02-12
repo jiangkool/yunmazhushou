@@ -1,0 +1,65 @@
+/* pages/tools/pailuan/index.wxss */
+.yyform{
+  margin: 20rpx;
+  border: 1px solid #eee;
+  background: #f4f4f4;
+  padding: 20rpx;
+  font-size: 14px;
+}
+.bt{
+  font-size: 32rpx;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 2rpx solid #eee;
+  line-height: 70rpx
+}
+.section{
+  margin: 20rpx 0 0 0;
+}
+.section__title{
+  position: relative;
+  margin: 20rpx 0 10rpx 0
+}
+.section input{
+  border: 2rpx solid #eee;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: #FFF;
+  border-radius: 10rpx;
+  text-indent: 10rpx
+
+}
+radio-group{
+   width: 100%;
+   float: left;
+   background: #FFF;
+   border: 1px solid #eee;
+   box-shadow: 0 0 5px #ddd;
+   margin: 20rpx 0 20rpx 0;
+   border-radius: 10rpx
+}
+.btn-area button{
+  margin-top: 20rpx
+}
+.section_gap label{
+  font-size: 32rpx;
+  font-weight: 700
+}
+
+.tips{
+  padding: 10px
+}
+
+
+.section__title{
+  font-size: 28rpx;
+  color: #545454
+}
+
+.picker{
+  font-size: 28rpx
+}
+
+.input-box{
+  padding-left: 20rpx
+}

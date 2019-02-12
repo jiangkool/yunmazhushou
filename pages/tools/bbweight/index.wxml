@@ -1,0 +1,45 @@
+<view class="yyform">
+  <view class="bt">胎儿体重计算器</view>
+   <view class='blank10'></view>
+   <view class=" tips bg-white">
+  <view class="result text-bold">胎儿体重估算约: <text  class="color-red">{{ bbWeight.jin }}</text> （即{{ bbWeight.ke }}）</view>
+  </view>
+  <view class='blank10'></view>
+   <form bindsubmit="formSubmit">
+   <view class="section">
+    <view class="section__title">双顶径:厘米（cm）</view>
+    <input name="Jsd" type="digit" confirm-type='next' class='input-box' placeholder="如：2.52" />
+    </view>
+    <view class="blank10"></view>
+    <view class="section">
+    <view class="section__title">腹围:厘米（cm）</view>
+    <input name="Jfw" type="digit"  class='input-box' placeholder="如：6.90" />
+    </view>
+    <view class="blank10"></view>
+    <view class="section">
+    <view class="section__title">股骨长:厘米（cm）</view>
+    <input name="Jgg" type="digit"  class='input-box' placeholder="如：1.17" />
+    </view>
+    <view class="blank10"></view>
+  <view class="btn-area">
+    <button  type="primary"  formType="submit" class="subbtn">开始测算</button>
+  </view>
+   <view class="blank10"></view>
+</form>
+  <view class='blank10'></view>
+   <view class=" tips bg-white">
+   <view class='text-bold'>胎儿B超数据标准</view>
+   <view class='blank5'></view>
+  <text class='text-default'>如果孕妈咪将产检时医师告知的胎儿体重及身长结果对照胎儿体重计算器的结果，就会发现自己的胎儿体重不一定符合这个测试结果，甚至可能有较大的落差。这是因为胎儿的体重差异范围本来就非常大，其实只要误差在前后两周内的预估体重内(至多不超过10～90%的成长区间)，都是可接受的范围。</text>
+  <view class='blank5'></view>
+  <text class='text-danger'>注：腹围周长=3.14×腹围直径</text>
+  </view>
+  <view class='blank10'></view>
+   <view class='share'>
+    <button open-type="share" type="primary" size="default">分享给朋友！</button>
+  </view>
+  <view class='blank15'></view>
+</view>
+
+
+

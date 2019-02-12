@@ -1,0 +1,57 @@
+<view class="yyform">
+  <view class="bt">疫苗接种时间计算器</view>
+  <view class='blank10'></view>
+   <form bindsubmit="formSubmit">
+    <view class="section">
+    <view class="section__title">宝宝出生日期</view>
+      <picker  mode = "date" start="2000-01-01" end="2080-01-01" bindchange="bindDateChange" value="{{date}}" >
+        <view class="picker">
+          <input name="csdate" disabled='true' type="text" class='input-box' placeholder="点击选择" value='{{date}}'/>
+        </view>
+      </picker>
+    </view>
+    <view class="blank10"></view>
+  <view class="btn-area">
+    <button  type="primary"  formType="submit" class="subbtn">开始计算</button>
+  </view>
+   <view class="blank10"></view>
+</form>
+  <view class='blank10'></view>
+   <view class=" bg-white">
+   <view class='text-bold res-bt'>疫苗接种时间表</view>
+   <view class='blank5'></view>
+  <view class='table'>
+    <view class='td hd'><text>年龄</text><text>疫苗种类</text><text>说明</text><text>接种日期</text></view>
+    <view class='td'><text>出生时</text><text>卡介苗</text><text>初种</text><text>{{ dates.ymDate1 }}</text></view>
+    <view class='td bg2'><text>出生时</text><text>乙肝疫苗</text><text>第一针</text><text>{{ dates.ymDate2 }}</text></view>
+    <view class='td'><text>1月足</text><text>乙肝疫苗</text><text>第二针</text><text>{{ dates.ymDate3 }}</text></view>
+    <view class='td bg2'><text>2月足</text><text>脊髓灰质炎活疫苗</text><text>第一次</text><text>{{ dates.ymDate4 }}</text></view>
+    <view class='td'><text>3月足</text><text>卡介苗</text><text>OT复查</text><text>{{ dates.ymDate5 }}</text></view>
+    <view class='td bg2'><text>3月足</text><text>脊髓灰质炎活疫苗</text><text>第二次</text><text>{{ dates.ymDate6 }}</text></view>
+    <view class='td'><text>3月足</text><text>百白破制剂</text><text>第一次</text><text>{{ dates.ymDate7 }}</text></view>
+    <view class='td bg2'><text>4月足</text><text>脊髓灰质炎活疫苗</text><text>第三次</text><text>{{ dates.ymDate8 }}</text></view>
+    <view class='td'><text>4月足</text><text>百白破制剂</text><text>第二次</text><text>{{ dates.ymDate9 }}</text></view>
+    <view class='td bg2'><text>5月足</text><text>百白破制剂</text><text>第三次</text><text>{{ dates.ymDate10 }}</text></view>
+    <view class='td'><text>6月足</text><text>乙肝疫苗</text><text>第三针</text><text>{{ dates.ymDate11 }}</text></view>
+    <view class='td bg2'><text>8月足</text><text>麻疹活疫</text><text>第一针</text><text>{{ dates.ymDate12 }}</text></view>
+    <view class='td'><text>1岁</text><text>乙脑疫苗</text><text>初免两针</text><text>{{ dates.ymDate13 }}</text></view>
+    <view class='td bg2'><text>1岁半至2岁</text><text>脊髓灰质炎活疫苗</text><text>加强</text><text>{{ dates.ymDate14 }}</text></view>
+    <view class='td'><text>1岁半至2岁</text><text>百白破制剂</text><text>加强</text><text>{{ dates.ymDate15 }}</text></view>
+    <view class='td bg2'><text>1岁半至2岁</text><text>乙脑疫苗</text><text>加强</text><text>{{ dates.ymDate16 }}</text></view>
+    <view class='td'><text>4岁</text><text>脊髓灰质炎活疫苗</text><text>加强</text><text>{{ dates.ymDate17 }}</text></view>
+    <view class='td bg2'><text>4岁</text><text>麻疹活疫</text><text>加强</text><text>{{ dates.ymDate18 }}</text></view>
+    <view class='td'><text>7岁</text><text>百白破制剂</text><text>加强(白破)</text><text>{{ dates.ymDate19 }}</text></view>
+    <view class='td bg2'><text>7岁</text><text>麻疹活疫</text><text>加强</text><text>{{ dates.ymDate20 }}</text></view>
+    <view class='td'><text>7岁</text><text>乙脑疫苗</text><text>加强</text><text>{{ dates.ymDate21 }}</text></view>
+    <view class='td bg2'><text>12岁</text><text>卡介苗</text><text>加强(农村)</text><text>{{ dates.ymDate22 }}</text></view>
+  </view>
+  <view class='blank5'></view>
+  </view>
+   <view class='tips bg-white'>疫苗接种是指根据疾病预防控制规划，利用预防性生物制品（俗称疫苗），按国家和省级规定的免疫程序，由合格的接种单位和接种人员给适宜的接种对象进行接种，以提高人群免疫水平，达到预防和控制针对传染病发生和流行的目的。《中华人民共和国传染病防治法》规定：国家对儿童实行预防接种证制度。为了保护儿童健康，请家长协助做好您的孩子的预防接种工作。</view>
+  <view class='blank10'></view>
+   <view class='share'>
+    <button open-type="share" type="primary" size="default">分享给朋友！</button>
+  </view>
+  <view class='blank15'></view>
+</view>
+ 

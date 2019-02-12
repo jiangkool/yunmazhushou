@@ -1,0 +1,34 @@
+<!--pages/tools/pailuan/index.wxml-->
+<view class="yyform">
+  <view class="bt">排卵期计算器</view>
+   <view class='blank10'></view>
+   <view class=" tips bg-white">
+  <view class="result text-bold">您的排卵期是: <text  class="color-red">{{ pailuanStart }}</text> 至 <text  class="color-red">{{ pailuanEnd }}</text></view>
+  </view>
+  <view class='blank10'></view>
+   <form bindsubmit="formSubmit">
+ <view class="section">
+  <view class="section__title">末次月经时间:</view>
+  <picker mode="date" value="{{date}}" start="2015-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      <input name='lastyjdate' disabled='true' class='input-box' value='{{date}}' placeholder="请点击选择日期"></input> 
+    </view>
+  </picker>
+</view>
+<view class="blank10"></view>
+   <view class="section">
+    <view class="section__title">平均月经周期(天):</view>
+    <input name="yjzq" type="number" confirm-type="done" class='input-box' placeholder="请填写月经周期 如： 28" />
+    </view>
+    <view class="blank10"></view>
+  <view class="btn-area">
+    <button  type="primary"  formType="submit" class="subbtn">开始测算</button>
+  </view>
+   <view class="blank10"></view>
+</form>
+   <view class='share'>
+    <button open-type="share" type="primary" size="default">分享给朋友！</button>
+  </view>
+  <view class='blank15'></view>
+</view>
+

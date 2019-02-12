@@ -1,0 +1,26 @@
+<view class='banner'><image src='{{ artData.banner }}'></image></view>
+<view class="box-center">
+  <view class='other-name' wx:if="{{ artData.other_name }}">{{ artData.title }}又名 {{ artData.other_name }}</view>
+  <view class='blank5'></view>
+
+  <block wx:for="{{ artData.items }}" wx:key="show">
+    <view class='item'>
+      <view class='bt'  wx:if="{{ artData.type==1 }}">{{ item.feature }}可以{{ artData.title }}吗？</view>
+      <view class='bt'  wx:else>{{ item.feature }}可以吃{{ artData.title }}吗？</view>
+      <view class='blank5'></view>
+      <view class='iscan text-cancel' wx:if="{{ item.iscan==0 }}"> <icon type="cancel" size="15" /> 不能！</view>
+      <view class='iscan text-success' wx:if="{{ item.iscan==1 }}"> <icon type="success" size="15" /> 能！</view>
+      <view class='iscan text-warn' wx:if="{{ item.iscan==2 }}"> <icon type="warn" size="15" /> 谨慎！</view>
+      <view class='blank5'></view>
+      <view class='content'>
+      {{ item.content }}
+      </view>
+      <view class='blank10'></view>
+    </view>
+  </block>
+
+  <view class='share'>
+    <button open-type="share" type="primary" size="default">分享给朋友！</button>
+  </view>
+  <view class='blank15'></view>
+</view>

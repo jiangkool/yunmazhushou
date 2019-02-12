@@ -1,0 +1,47 @@
+<!--pages/tools/xuexin/index.wxml-->
+<view class="yyform">
+  <view class="bt">宝宝血型测试</view>
+   <view class='blank10'></view>
+   <view class=" tips bg-white">
+  <view class="result text-bold">测试结果: <text  class="color-red">{{ bbxx }}</text> </view>
+  </view>
+  <view class='blank10'></view>
+   <form bindsubmit="formSubmit">
+      <view class="section">
+  <view class="section__title">你的血型:</view>
+  <picker bindchange="bindYouxxChange" value="{{index}}" range="{{youxx}}">
+    <view class="picker">
+      <input name="youxx" disabled='true' class='input-box' placeholder="点击选择" value='{{youxx[index]}}'/>
+    </view>
+  </picker>
+</view>
+    <view class="blank10"></view>
+      <view class="section">
+  <view class="section__title">你配偶的血型:</view>
+  <picker bindchange="bindPoxxChange" value="{{key}}" range="{{poxx}}">
+    <view class="picker">
+      <input name="poxx" disabled='true' class='input-box' placeholder="点击选择" value='{{poxx[key]}}'/>
+    </view>
+  </picker>
+</view>
+    <view class="blank10"></view>
+  <view class="btn-area">
+    <button  type="primary"  formType="submit" class="subbtn">开始测算</button>
+    <button open-type="getPhoneNumber" type="warn" class='subbtn' bindgetphonenumber="getPhoneNumber">电话咨询</button>
+  </view>
+   <view class="blank10"></view>
+</form>
+  <view class='blank10'></view>
+   <view class=" tips bg-white">
+   <view class='text-bold'>血型遗传规律表原理</view>
+   <view class='blank5'></view>
+  <text class='text-default'>血型遗传规律表，血型配对表，血型是以A、B、O等三种遗传因子的组合而决定的，只要您输入父母的血型，通过科学的血型测试和血型配对，即可判断出以后出生的小宝宝可能出现的血型，是已知准确的方法哦。</text>
+  <view class='blank5'></view>
+  <text class='text-danger'>因此，根据上述血型遗传规律，如果丈夫和妻子的血型是“A” 型和“B”型，则小宝宝的血型除了“A”或“B”型外，还会有“O”或“AB”型。</text>
+  </view>
+  <view class='blank10'></view>
+
+</view>
+
+
+

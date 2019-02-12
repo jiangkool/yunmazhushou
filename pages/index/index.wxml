@@ -1,0 +1,114 @@
+<view class='box'>
+  <form bindsubmit="formSubmit" class='search-form'>
+  <view class="search-box">
+    <view class='blank15'></view>
+     <input name="keywords" class='input' placeholder-class="placeholder" placeholder="在这里搜索！" />
+    <view class='blank15'></view>  
+  </view>
+  <view class="btn-area"><button formType="submit">搜索</button></view>
+  </form><!--/search form-->
+</view> <!-- /box -->
+<view class='blank15'></view>
+<view class='box-center'>
+  <view class='items'>
+
+    <view class='item fl'>
+    <navigator url='/pages/list/index?cid=1&cname=主食' hover-class="none">
+    <image  src='../../images/a_13.jpg'></image>
+    <view class='blank5'></view>
+    <text>主食</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fm'>
+    <navigator url='/pages/list/index?cid=2&cname=坚果类' hover-class="none">
+    <image  src='../../images/a_15.jpg'></image>
+    <view class='blank5'></view>
+    <text>坚果类</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fr'>
+    <navigator url='/pages/list/index?cid=3&cname=豆/奶制品' hover-class="none">
+    <image  src='../../images/a_17.jpg'></image>
+    <view class='blank5'></view>
+    <text>豆/奶制品</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fl'>
+    <navigator url='/pages/list/index?cid=4&cname=零食小吃类' hover-class="none">
+    <image  src='../../images/a_35.jpg'></image>
+    <view class='blank5'></view>
+    <text>零食小吃类</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fm'>
+    <navigator url='/pages/list/index?cid=5&cname=饮品' hover-class="none">
+    <image  src='../../images/a_36.jpg'></image>
+    <view class='blank5'></view>
+    <text>饮品</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fr'>
+    <navigator url='/pages/list/index?cid=10&cname=调味品' hover-class="none">
+    <image  src='../../images/a_37.jpg'></image>
+    <view class='blank5'></view>
+    <text>调味品</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fl'>
+    <navigator url='/pages/list/index?cid=11&cname=海产品' hover-class="none">
+    <image  src='../../images/a_55.jpg'></image>
+    <view class='blank5'></view>
+    <text>海产品</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fm'>
+    <navigator url='/pages/list/index?cid=12&cname=水果' hover-class="none">
+    <image  src='../../images/a_58.jpg'></image>
+    <view class='blank5'></view>
+    <text>水果</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fr'>
+    <navigator url='/pages/list/index?cid=13&cname=肉/蛋类' hover-class="none">
+    <image  src='../../images/a_57.jpg'></image>
+    <view class='blank5'></view>
+    <text>肉/蛋类</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fl'>
+    <navigator url='/pages/list/index?cid=14&cname=蔬菜菌类' hover-class="none">
+    <image  src='../../images/a_74.jpg'></image>
+    <view class='blank5'></view>
+    <text>蔬菜菌类</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fm'>
+    <navigator url='/pages/list/index?cid=15&cname=加工食品' hover-class="none">
+    <image  src='../../images/a_77.jpg'></image>
+    <view class='blank5'></view>
+    <text>加工食品</text>
+    </navigator>
+    </view><!--/item-->
+
+    <view class='item fr'>
+    <navigator url='/pages/list/index?cid=16&cname=补品草药' hover-class="none">
+    <image  src='../../images/a_75.jpg'></image>
+    <view class='blank5'></view>
+    <text>补品&草药</text>
+    </navigator>
+    </view><!--/item-->
+
+  </view>
+</view>
+<view class='blank15'></view>
+<view class='blank15'></view>
