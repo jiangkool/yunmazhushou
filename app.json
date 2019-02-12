@@ -19,7 +19,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FFF",
-    "navigationBarTitleText": "武汉孕妈圈",
+    "navigationBarTitleText": "孕妈圈",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
